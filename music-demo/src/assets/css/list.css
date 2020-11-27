@@ -1,0 +1,182 @@
+.list{
+    padding-bottom: 1.08rem;
+}
+.header{
+    width: 7.5rem;
+    height: 3.6rem;
+    overflow: hidden;
+}
+.header .bcImg{
+    width: 7.5rem;
+    height: 3.6rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    filter: blur(20px);
+    z-index: -1;
+}
+.header .black{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5;
+    background-color: rgb(46, 44, 44);
+    z-index: -1;
+      
+}
+.header .pImg{
+    width: 2.52rem;
+    height: 2.52rem;
+    position: relative;
+    display: inline-block;
+    top: .52rem;
+    left: .28rem;
+}
+.header .pImg img{
+    width: 2.52rem;
+    height: 2.52rem;
+}
+.header .pImg .remd_lnum{
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    z-index: 3;
+    padding-left: 13px;
+    color: #fff;
+    font-size: 12px;
+    background-image: url(../images/ear.svg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 11px 10px;
+}
+.header .pImg .lsthd_icon {
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    left: 0;
+    padding: 0 8px;
+    height: 17px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    line-height: 17px;
+    background-color: rgba(217,48,48,.8);
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.header .headInfo{
+    position: relative;
+    top: -2rem;
+    left: 3.1rem;
+    width: 4.16rem;
+    height: 2.52rem;
+}
+.header .headInfo .headInfo_title{
+    font-size: 17px;
+    line-height: 1.3;
+    color: #fefefe;
+    height: 44px;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+}
+.header .headInfo .headUser{
+    height: .6rem;
+    margin-top: .4rem;
+    font-size: 14px;
+    color: #fff;
+}
+.header .headInfo .headUser img{
+    width: .6rem;
+    height: .6rem;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%
+}
+.songTitle{
+    height: 23px;
+    line-height: 23px;
+    padding: 0 10px;
+    font-size: 12px;
+    color: #666;
+    background-color: #eeeff0;
+    z-index: 2;
+}
+.songList{
+    width: 7.5rem;
+    background-color: #fff;
+}
+.songList li{
+    display: flex;
+}
+.songList .SN{
+    font-size: 17px;
+    width: .4rem;
+    margin-top: 18px;
+    margin-left: 10px;
+    max-lines: 8px;
+    color:#999;
+}
+.songList .songInfo{
+    width: 6.6rem;
+    height: 1.08rem;
+    line-height: .5rem;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: .4rem;
+    background: url(../images/index/stop.png) no-repeat;
+    background-size: 22px 22px;
+    background-position: 6rem .3rem;
+}
+.songList .songName {
+    font-size: 17px;
+    height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: .1rem;
+}
+.songList .singer{
+    height: .34rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.songList  span{
+    vertical-align:top;
+    height: .34rem;
+    margin-left: .1rem;
+    margin-top: -1px;
+    display: inline-block;
+    font-size: 12px;
+    color: #888;
+}
+/* 收藏歌单 */
+.store{
+    width: 7.5rem;
+    height: 1.08rem;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.store>div{
+    width: 5.2rem;
+    height: .8rem;
+    margin: .2rem auto;
+    line-height: .8rem;
+    font-size: .32rem;
+    color: #fff;
+    text-align: center;
+    background-color: #ff3a3a;
+    border-radius: .4rem;
+}

@@ -1,0 +1,102 @@
+.rank{
+    padding-top: 2.5rem;
+}
+.rank{
+    overflow: hidden;
+}
+.rank .hotRank{
+    width: 7.5rem;
+    height: 2.9rem;
+    background: url(../images/hot_music_bg.jpg) no-repeat;
+    background-size: 7.5rem 2.9rem;
+    overflow: hidden;
+}
+.rank .hotRank .hotRankText{
+    width: 2.84rem;
+    height: 1.34rem;
+    margin-top: .5rem;
+    margin-left: .3rem;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-position: -.48rem -.62rem;
+    background-size: 3.32rem 1.94rem;
+}
+.rank .hotRank .time{
+    height: .3rem;
+    margin-top: .1rem;
+    font-size: 12px;
+    margin-left: .3rem;
+    color: #fff;
+}
+.rank .songList{
+    width: 7.5rem;
+    margin-bottom: .3rem;
+}
+.rank .songList li{
+    display: flex;
+}
+.rank .songList .SN{
+    font-size: 17px;
+    width: .4rem;
+    margin-top: 18px;
+    margin-left: 10px;
+    max-lines: 8px;
+    color:#999;
+}
+.rank .songList ul li:nth-child(-n+3) .SN{
+    color: #df3436;
+  } 
+.rank .songList .songInfo{
+    width: 6.6rem;
+    height: 1.08rem;
+    line-height: .5rem;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: .4rem;
+    background: url(../images/index/stop.png) no-repeat;
+    background-size: 22px 22px;
+    background-position: 6rem .3rem;
+}
+.rank .songList .songName {
+    font-size: 17px;
+    height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: .1rem;
+}
+.rank .songList .singer{
+    height: .34rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.rank .songList .singer .SQ{
+    width: .24rem;
+    height: .26rem;
+    display: inline-block;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 3.32rem 1.94rem;
+    background-position: 0 0;
+}
+.rank .songList  span{
+    vertical-align:top;
+    height: .34rem;
+    margin-left: .1rem;
+    margin-top: -1px;
+    display: inline-block;
+    font-size: 12px;
+    color: #888;
+}
+.lookALL{
+    width: 2rem;
+    margin: 0 auto;
+    margin-bottom: .3rem;
+}
+.lookALL span{
+    font-size: 14px;
+    
+    color: #999;
+}

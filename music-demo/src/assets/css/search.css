@@ -1,0 +1,117 @@
+.search{
+    padding-top: 2.5rem;
+}
+.search .iptCon{
+    width: 7.5rem;
+    height: 1.2rem;
+    overflow: hidden;
+    border-bottom: 1px solid #e3e3e3;
+    position: relative;
+}
+.search .iptCon .ipt{
+    display: block;
+    width: 6.5rem;
+    height: .6rem;
+    margin: 0 auto;
+    margin-top: .3rem;
+    border: none;
+    outline: none;
+    border-radius: .6rem;
+    background: url(../images/search.svg) no-repeat;
+    background-size: .26rem .26rem;
+    background-position: 10px 9px;
+    background-color: #ebecec;
+    padding-left: .6rem;
+    font-size:14px;
+}
+.search .hotSearchNone{
+    display: none;
+}
+.search .hotSearch p{
+    width: 2rem;
+    margin-top: .2rem;
+    margin-left:10px;
+    font-size: 12px;
+    color: #666;
+}
+.search .iptCon .delete{
+    position: absolute;
+    right: 0;
+    top: .44rem;
+    width: .6rem;
+    height: .6rem;
+    background: url(../images/delete.svg) no-repeat;
+    background-size: .28rem .28rem;
+}
+.search .hotSearch .searchItem{
+    display: inline-block;
+    height: .64rem;
+    margin: 5px;
+    padding: 0 14px;
+    font-size: 14px;
+    line-height: .64rem;
+    color: #333;
+    border: 1px solid#e3e3e3;
+    border-radius: 22px;
+}
+
+.search .nowSearch .searchInfo{
+    height: 50px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    line-height: 50px;
+    color: #507daf;
+}
+.search .songList{
+    width: 7.5rem;
+    margin-bottom: .3rem;
+}
+.search .songList li{
+    display: flex;
+}
+.search .songList .songInfo{
+    width: 7rem;
+    height: 1.08rem;
+    line-height: .5rem;
+    border-bottom: 1px solid #e5e5e5;
+    margin-left: .4rem;
+    background: url(../images/index/stop.png) no-repeat;
+    background-size: 22px 22px;
+    background-position: 6rem .3rem;
+}
+.search .songList .songName {
+    font-size: 17px;
+    height: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: .1rem;
+}
+.search .songList .singer{
+    height: .34rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.search .songList .singer .SQ{
+    width: .24rem;
+    height: .26rem;
+    display: inline-block;
+    background: url(../images/index_icon_2x.png) no-repeat;
+    background-size: 3.32rem 1.94rem;
+    background-position: 0 0;
+    vertical-align: middle;
+}
+.search .songList  span{
+    height: .34rem;
+    margin-left: .1rem;
+    margin-top: -1px;
+    display: inline-block;
+    font-size: 12px; 
+    color: #888;
+}

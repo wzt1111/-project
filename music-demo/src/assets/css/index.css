@@ -1,0 +1,49 @@
+.index .navTitle{
+    height: 1.68rem;
+    width: 7.5rem;
+    background: #d43c33;
+    color: #fff;
+    line-height: 1.68rem;
+    padding-left: .85rem;
+    box-sizing: border-box;
+    background-image: url(../images/index/wangyiyun.png);
+    background-repeat: no-repeat;
+    background-position: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+.index button{
+    width: 2rem;
+    height: .72rem;
+    margin-left: 3rem;
+    font-size: 16px;
+    border: none;
+    color: #d43c33;
+    border-radius: 37.5%/100%;
+    outline: none;
+}
+.index .navBar{
+    width: 7.5rem;
+    height: 0.8rem;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    line-height: 0.8rem;
+    display: flex;
+    position: fixed;
+    top: 1.68rem;
+    left: 0;
+    z-index:100;
+}
+.navBar a{
+    flex:1;
+    margin: 0 0.6rem;
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+}
+.index .active{
+    color: #DD001B;
+    border-bottom: 3px solid  #DD001B;
+}
